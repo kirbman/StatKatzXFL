@@ -25,13 +25,16 @@ class Offense {
     }
 
     public double totalOffense() {
+
         double totalO = 0;
         totalO = passingYards + rushingYards;
         return totalO;
     }
 
     public double offensiveEfficiency() {
-        return offEff;
+        doubel totalO = totalOffense();
+        
+        return (((totalO + pointsScored)/(turnovers*2))/playsRun);
     }
     
 }
