@@ -21,7 +21,8 @@ class Quarterback {
     }
 
     public double QBRcalc() {
-        return qbr;
+        return ((passingYards + rushingYards) + (touchdowns*6))/interceptions *
+                completionPercentage;
     }
     
 }
