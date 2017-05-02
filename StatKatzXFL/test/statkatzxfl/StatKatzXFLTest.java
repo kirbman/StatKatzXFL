@@ -86,7 +86,7 @@ public class StatKatzXFLTest {
     @Test
     public void testDefensiveEfficiency() {
        Defense theD = new Defense(2,2,2,2,2,2);
-       double expected = 2.5;
+       double expected = 3;
        double deffEff = theD.defensiveEfficiency();
        assertEquals(expected, deffEff);
     }
