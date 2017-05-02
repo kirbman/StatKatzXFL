@@ -62,8 +62,8 @@ public class StatKatzXFLTest {
      */
     @Test
     public void testOffensiveEfficiency() {
-       Offense theO = new Offense(450,120,28,2,56);
-       double expected = 2.5;
+       Offense theO = new Offense(450,120,30,2,50);
+       double expected = 3;
        double deffEff = theO.offensiveEfficiency();
        assertEquals(expected, deffEff);
     }
