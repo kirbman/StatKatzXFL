@@ -25,6 +25,8 @@ class Offense {
     }
 
     public double totalOffense() {
+        double totalO = 0;
+        totalO = passingYards + rushingYards;
         return totalO;
     }
 
