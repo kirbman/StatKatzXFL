@@ -21,7 +21,11 @@ class Team {
     }
 
     void display() {
-
+        System.out.println("Total defense: " + def1.totalDefense());
+        System.out.println("Defensive efficiency: " + def1.defensiveEfficiency());
+        System.out.println("Total offense: " + off1.totalOffense());
+        System.out.println("Offensive efficiency: " + off1.offensiveEfficiency());
+        System.out.println("QBR: " + QBRcalc());
     }
     
     
