@@ -42,9 +42,7 @@ public class StatKatzXFLTest {
      */
     @Test
     public void testQBR() {
-        Quarterback qb = new Quarterback(400, 36, 4, 1, 0.78);
         
-        assertEquals(358.8, qb.QBRcalc(), .01);
     }
     
         /**
@@ -52,7 +50,11 @@ public class StatKatzXFLTest {
      */
     @Test
     public void testTotalOffense() {
-        
+        Offense team1 = new Offense(450,120,28,2,56);
+        double totalOffense;
+        totalOffense = team1.totalOffense();
+        double expected = 317;
+        assertEquals(expected, totalOffense, .001);
     }
     
         /**
