@@ -66,7 +66,11 @@ public class StatKatzXFLTest {
      */
     @Test
     public void testTotalDefense() {
-        
+        Defense team1 = new Defense(250,67,10,2,4,57);
+        double totalDefense;
+        totalDefense = team1.totalDefense();
+        double expected = 317;
+        assertEquals(expected, totalDefense, .001);
     }
     
         /**
