@@ -25,7 +25,10 @@ class Offense {
     }
 
     public double totalOffense() {
-        return passingYards + rushingYards;
+
+        double totalO = 0;
+        totalO = passingYards + rushingYards;
+        return totalO;
     }
 
     public double offensiveEfficiency() {
