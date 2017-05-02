@@ -42,7 +42,8 @@ public class StatKatzXFLTest {
      */
     @Test
     public void testQBR() {
-        
+        Quarterback qb = new Quarterback(400, 36, 4, 1, .78);
+        assertEquals(358.8, qb.QBcalc(), .01);
     }
     
         /**
