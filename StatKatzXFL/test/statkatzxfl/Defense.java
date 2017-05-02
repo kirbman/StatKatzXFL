@@ -33,7 +33,9 @@ class Defense {
     }
 
     public double defensiveEfficiency() {
-        return defEff;
+        double deffEff;
+        deffEff = ((totalDefense() + Math.pow(turnoversForced,2) + Math.pow(tacklesForLoss, 2))/pointsAllowed)/playsRun;
+        return deffEff;;
     }
     
 }
