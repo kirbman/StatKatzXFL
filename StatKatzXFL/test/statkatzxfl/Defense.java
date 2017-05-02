@@ -27,6 +27,8 @@ class Defense {
     }
 
     public double totalDefense() {
+        double totalD;
+        totalD = passingYardsAllowed + rushingYardsAllowed;
         return totalD;
     }
 
